@@ -1,5 +1,5 @@
 #Vue.js - Animate.css Clone
->Projenin Olduğu Dizine Gelerek
+> Projenin Olduğu Dizine Gelerek
 ##Bağımlılıkları Yüklemek İçin
 ```
 npm install
