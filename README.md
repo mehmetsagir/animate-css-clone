@@ -13,8 +13,6 @@ npm run dev
 npm run build
 ```
 
----
-
 ## Author✍️
 👤 Mehmet Sağır
 
