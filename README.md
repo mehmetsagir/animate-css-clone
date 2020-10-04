@@ -15,5 +15,5 @@ npm run build
 ## Author✍️
 👤 Mehmet Sağır
 
-## Licance
+### Licance
 * MIT
