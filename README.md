@@ -1,7 +1,4 @@
 # Vue.js - Animate.css Clone
-## Author✍️
-👤 Mehmet Sağır
-
 > By coming to the directory where the project is located.
 ## To install dependencies
 ```
@@ -15,6 +12,11 @@ npm run dev
 ```
 npm run build
 ```
+
+## Author✍️
+👤 Mehmet Sağır
+
+---
 
 ### Licance
 * MIT
