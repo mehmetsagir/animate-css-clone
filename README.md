@@ -1,4 +1,4 @@
-Author✍️
+## Author✍️
 <p><g-emoji class="g-emoji" alias="bust_in_silhouette" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f464.png">👤</g-emoji> <b> Mehmet Sağır </b></p>
 
 # Vue.js - Animate.css Clone
