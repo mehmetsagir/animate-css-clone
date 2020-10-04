@@ -1,5 +1,5 @@
 # Vue.js - Animate.css Clone
-✨Live Demo -> animate.memetsagir.com 
+✨Live Demo -> [animate.memetsagir.com](http://animate.memetsagir.com)
 > By coming to the directory where the project is located.
 ## To install dependencies
 ```
