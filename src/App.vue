@@ -108,7 +108,7 @@ html{
   height: 100vh !important;
   overflow: hidden;
 }
-.container{
+#app{
   width: 100%;
   height: 100vh;
   background: #FCE5CD;
@@ -219,12 +219,10 @@ ul li ul li .far:hover{
 }
 @media(max-width: 1200px){
   .box{
-    right: -500px !important;
-    transition: .2s;
+    display: none;
   }
   .box.open{
-    right: 0 !important;
-    transition: .2s;
+    display: block;
   }
   .openMenuBtn, .closeMenuBtn{
     display: block !important;
