@@ -8,10 +8,10 @@
     <div class="box" :class="res == true ? 'open' : ''" >
       <button class="closeMenuBtn" @click="res = false">Close List</button>
       <ul>
-        <li v-for="data in allData">
+        <li v-for="(data, index) in allData" :key="index">
           <p class="bold">{{ data.title }}</p>
           <ul>
-            <li v-for="item in data.text"
+            <li v-for="(item, index) in data.text" :key="index"
                 @click="runAnimation = 'animate__animated animate__'+item; startAnimation()">
                 <span>{{ item }}</span>
 
@@ -62,6 +62,21 @@ export default {
       textarea.value = this.copyAnimation;
       document.body.appendChild(textarea);
       textarea.select();
+      
+      let old_div = document.querySelector('.alert');
+      if (old_div){
+          old_div.parentNode.removeChild(old_div);
+      }
+
+      let alert = document.createElement('div');
+      alert.className = 'alert';
+      alert.innerText = "Copied "+this.copyAnimation + '!'
+      console.log(alert.innerText)
+      document.body.appendChild(alert)
+      setTimeout(() => alert.classList.add('active'), 1);
+      setTimeout(() => alert.classList.remove('active'), 3000);
+      setTimeout(() => { document.body.removeChild(alert) }, 3500);
+
       document.execCommand('copy');
       document.body.removeChild(textarea);
     },
@@ -132,6 +147,24 @@ h2{
   font-size: 26px;
   color: #EA9D4F;
   font-family: sans-serif;
+}
+.alert{
+  position: fixed;
+  top: -150px;
+  left: 20px;
+  padding: 10px 30px;
+  background: #0C1226;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 30px;
+  transition: 300ms;
+}
+.alert.active{
+  top: 20px;
+}
+.alert::selection{
+  background: none;
 }
 .box{
   position: absolute;
