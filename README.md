@@ -1,6 +1,6 @@
 # Vue.js - Animate.css Clone
 
-✨ **Live Demo ->** [animate-clone.netlify.app](https://animate-clone.netlify.app/)
+✨ **Live Demo ->** [animatecss-clone-ms.netlify.app](https://animatecss-clone-ms.netlify.app/)
 > By coming to the directory where the project is located.
 ## To install dependencies
 ```
