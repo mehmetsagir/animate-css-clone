@@ -62,7 +62,7 @@ export default {
       textarea.value = this.copyAnimation;
       document.body.appendChild(textarea);
       textarea.select();
-      
+
       let old_div = document.querySelector('.alert');
       if (old_div){
           old_div.parentNode.removeChild(old_div);
@@ -95,7 +95,6 @@ export default {
       }
     },
     copyToLink(){
-      var data = document.querySelector(".link").innerHTML;
       var textarea = document.createElement('textarea');
       textarea.value = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
       document.body.appendChild(textarea);

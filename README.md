@@ -1,24 +1,24 @@
-# Vue.js - Animate.css Clone
+# animatecss-clone
 
-✨ **Live Demo ->** [animate.memetsagir.com](http://animate.memetsagir.com)
-> By coming to the directory where the project is located.
-## To install dependencies
+## Project setup
 ```
 npm install
 ```
-## To run the project
+
+### Compiles and hot-reloads for development
 ```
-npm run dev
+npm run serve
 ```
-## Preparing the project for the production environment
+
+### Compiles and minifies for production
 ```
 npm run build
 ```
 
-## Author✍️
-👤 Mehmet Sağır
+### Lints and fixes files
+```
+npm run lint
+```
 
-___
-
-### Licance
-* MIT
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
