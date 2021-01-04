@@ -20,5 +20,5 @@ npm run build
 
 ___
 
-### Licance
-* MIT
+## License
+Licensed under the MIT license, see [LICENSE](LICENSE) for details.
